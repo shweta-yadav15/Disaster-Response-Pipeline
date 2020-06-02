@@ -14,10 +14,14 @@ A set of messages related to disaster response, covering multiple languages, sui
 ## Motivation
 In this project, I am using my Data Engineering skills to analyze disaster data from Figure Eight. The classifier model is built using Extract, Transform and Load process(ETL), natural language processing(NLP) and machine learning pipeline for classifying disaster messages. The project also includes a web app where an emergency worker can input a new message and get classification results in several categories. It can be useful to detect what messages actually need attention during the event of a disaster.
 
+---
+
 ## Dataset
 The dataset contains 30,000 messages drawn from events including an earthquake in Haiti in 2010, an earthquake in Chile in 2010, floods in Pakistan in 2010, super-storm Sandy in the U.S.A. in 2012, and news articles spanning a large number of years and 100s of different disasters.
 
 The data has been encoded with 36 different categories related to disaster response and has been stripped of messages with sensitive information in their entirety.
+
+---
 
 ## Installation
 
@@ -29,7 +33,11 @@ The data has been encoded with 36 different categories related to disaster respo
 
 3. Go to http://0.0.0.0:3001/
 
+---
+
 ## Files Description
+This is the file-folder structure of the project.
+
 ```
 .
 ├── app     
@@ -45,8 +53,10 @@ The data has been encoded with 36 different categories related to disaster respo
 │   └── train_classifier.py              # Train ML model           
 └── README.md
 ```
+---
 
-
+## Results
+The model has accuracy of 95.34% which is really good and precision of 76%. 
 
 
 
