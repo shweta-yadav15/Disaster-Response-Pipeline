@@ -30,6 +30,15 @@ The data has been encoded with 36 different categories related to disaster respo
 3. Go to http://0.0.0.0:3001/
 
 ## Files Description
+'''#!/bin/bash
+
+#File: tree-md
+
+tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
+       sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g')
+
+printf "# Project tree\n\n${tree}"'''
+
 
 
 
