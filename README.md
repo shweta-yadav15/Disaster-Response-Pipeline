@@ -30,14 +30,22 @@ The data has been encoded with 36 different categories related to disaster respo
 3. Go to http://0.0.0.0:3001/
 
 ## Files Description
-'''#!/bin/bash
+.
+├── app     
+│   ├── run.py                           # Flask file that runs app
+│   └── templates   
+│       ├── go.html                      # Classification result page of web app
+│       └── master.html                  # Main page of web app    
+├── data                   
+│   ├── disaster_categories.csv          # Dataset including all the categories  
+│   ├── disaster_messages.csv            # Dataset including all the messages
+│   └── process_data.py                  # Data cleaning
+├── models
+│   └── train_classifier.py              # Train ML model           
+└── README.md
 
-#File: tree-md
 
-tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
-       sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g')
 
-printf "# Project tree\n\n${tree}"'''
 
 
 
