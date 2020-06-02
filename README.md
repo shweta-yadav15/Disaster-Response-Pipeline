@@ -30,7 +30,7 @@ The data has been encoded with 36 different categories related to disaster respo
 3. Go to http://0.0.0.0:3001/
 
 ## Files Description
-''''.
+'''.
 ├── app     
 │   ├── run.py                           # Flask file that runs app
 │   └── templates   
