@@ -22,6 +22,7 @@ The dataset contains 30,000 messages drawn from events including an earthquake i
 The data has been encoded with 36 different categories related to disaster response and has been stripped of messages with sensitive information in their entirety.
 
 Disaster response messages dataset consists of imbalanced category labels data. Some labels like aid-related, weather-related have much more examples as compared to other categories. This imbalance might affect the model training as the classes are not represented equally. It can be handled by resampling the dataset or by generating synthetic samples. Although I have not applied these methods for now but I am planning to do it in future.
+
 ---
 
 ## Installation
