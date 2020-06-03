@@ -3,7 +3,7 @@
 A set of messages related to disaster response, covering multiple languages, suitable for text categorization and related natural language processing tasks.
 
 ## Contents
-1. [Motivation]
+1. [Motivation](https://github.com/shwets1503/Disaster_Response_Pipeline/blob/master/README.md#motivation)
 2. [Dataset]
 3. [Installation]
 4. [Files Description]
