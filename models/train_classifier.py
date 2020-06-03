@@ -27,6 +27,14 @@ from sklearn.externals import joblib
 
 
 def load_data(database_filepath):
+    '''
+    input:
+        database_filepath: file path to sql database 
+    output:
+        X: training messages list
+        Y: training target labels
+        category_names: categorical names for labeling
+    '''
     engine = create_engine('sqlite:///'+database_filepath)
     df = pd.read_sql_table('FigureEight', con=engine)
     X = df.message.values
@@ -37,6 +45,12 @@ def load_data(database_filepath):
 
 
 def tokenize(text):
+    '''
+    input:
+        text: messages data 
+    output:
+        clean_tokens: results list after tokenization
+    '''
     text = re.sub(r"[^a-zA-Z0-9]", " ", text)
     tokens = word_tokenize(text)
     lemmatizer = WordNetLemmatizer()
@@ -50,6 +64,12 @@ def tokenize(text):
 
 
 def build_model():
+    '''
+    input:
+        None
+    output:
+        cv: gridSearch model results
+    '''
     pipeline =  Pipeline([
             ('vect', CountVectorizer(tokenizer=tokenize)),
             ('tfidf', TfidfTransformer()),
@@ -65,6 +85,15 @@ def build_model():
 
 
 def evaluate_model(model, X_test, Y_test, category_names):
+    '''
+    input:
+        model: model built using build_model function
+        X_test: messages from test data
+        Y_test: output labels from test data
+        category_names: categorical names for labeling
+    output:
+        None
+    '''
     Y_pred = model.predict(X_test)
     accuracy = (Y_pred == Y_test).mean()
     print("Accuracy:", accuracy)
