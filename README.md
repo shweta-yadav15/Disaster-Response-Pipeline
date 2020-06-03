@@ -6,7 +6,7 @@ A set of messages related to disaster response, covering multiple languages, sui
 1. [Motivation](https://github.com/shwets1503/Disaster_Response_Pipeline/blob/master/README.md#motivation)
 2. [Dataset](https://github.com/shwets1503/Disaster_Response_Pipeline/blob/master/README.md#dataset)
 3. [Installation](https://github.com/shwets1503/Disaster_Response_Pipeline/blob/master/README.md#installation)
-4. [Files Description](https://github.com/shwets1503/Disaster_Response_Pipeline/blob/master/README.md#files description)
+4. [Files Description](https://github.com/shwets1503/Disaster_Response_Pipeline/blob/master/README.md#files-description)
 5. [Results](https://github.com/shwets1503/Disaster_Response_Pipeline/blob/master/README.md#results)
 
 ---
