@@ -41,16 +41,16 @@ This is the file-folder structure of the project.
 ```
 .
 ├── app     
-│   ├── run.py                           # Flask file that runs app
+│   ├── run.py                           #Flask file that runs app
 │   └── templates   
-│       ├── go.html                      # Classification result page of web app
-│       └── master.html                  # Main page of web app    
+│       ├── go.html                      #Classification result page of web app
+│       └── master.html                  #Main page of web app    
 ├── data                   
-│   ├── disaster_categories.csv          # Dataset including all the categories  
-│   ├── disaster_messages.csv            # Dataset including all the messages
-│   └── process_data.py                  # Data cleaning
+│   ├── disaster_categories.csv          #Dataset including all the categories  
+│   ├── disaster_messages.csv            #Dataset including all the messages
+│   └── process_data.py                  #Data cleaning
 ├── models
-│   └── train_classifier.py              # Train ML model           
+│   └── train_classifier.py              #Training ML model           
 └── README.md
 ```
 ---
