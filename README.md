@@ -59,6 +59,7 @@ This is the file-folder structure of the project.
 The model has accuracy of 95.34% which is really good and precision of 76%. Here is the screenshot of the webpage:
 
 ![Disasters (1)](https://user-images.githubusercontent.com/33171500/83582473-d0cd8600-a4fe-11ea-99f3-39dc6dd42b47.png)
+---
 
 ### Example search message
 
