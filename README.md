@@ -58,7 +58,7 @@ This is the file-folder structure of the project.
 ## Results
 The model has accuracy of 95.34% which is really good and precision of 76%. 
 
-![Image1](https://drive.google.com/file/d/18CZ7kJxmbkl8_OdXohNB54HH3Al0QNko/view?usp=sharing)
+![Image1](http://drive.google.com/file/d/18CZ7kJxmbkl8_OdXohNB54HH3Al0QNko/view?usp=sharing)
 
 
 
