@@ -66,11 +66,3 @@ The model has accuracy of 95.34% which is really good and precision of 76%. Here
 ### Example search message
 
 ![Disasters](https://user-images.githubusercontent.com/33171500/83582390-9663e900-a4fe-11ea-9300-7779c116819c.png)
-
-
-
-
-
-
-
-
